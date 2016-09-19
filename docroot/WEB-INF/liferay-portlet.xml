@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<liferay-portlet-app>
+	
+	<portlet>
+		<portlet-name>ACMCaseOverview</portlet-name>
+		<icon>/images/camunda.png</icon>
+		<indexer-class>de.iisys.liferay.portlet.camundaACM.caseOverview.search.CaseInstanceIndexer</indexer-class>
+		<asset-renderer-factory>de.iisys.liferay.portlet.camundaACM.caseOverview.asset.CaseInstanceAssetRendererFactory</asset-renderer-factory>
+		<header-portlet-css>/css/caseOverview/schub.css</header-portlet-css>
+		<css-class-wrapper>acm-caseoverview-portlet</css-class-wrapper>
+	</portlet>
+	
+	<portlet>
+		<portlet-name>ACMActivities</portlet-name>
+		<icon>/images/camunda.png</icon>
+		<header-portlet-css>/css/caseActivities/schub.css</header-portlet-css>
+		<css-class-wrapper>acm-caseoverview-portlet</css-class-wrapper>
+	</portlet>
+	
+	<portlet>
+		<portlet-name>ACMStakeholders</portlet-name>
+		<icon>/images/camunda.png</icon>
+		<header-portlet-css>/css/caseStakeholders/schub.css</header-portlet-css>
+		<css-class-wrapper>acm-stakeholders-portlet</css-class-wrapper>
+	</portlet>
+	
+	<role-mapper>
+		<role-name>administrator</role-name>
+		<role-link>Administrator</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>guest</role-name>
+		<role-link>Guest</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>power-user</role-name>
+		<role-link>Power User</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>user</role-name>
+		<role-link>User</role-link>
+	</role-mapper>
+</liferay-portlet-app>

@@ -1,0 +1,14 @@
+.acm-caseoverview-portlet .table th {
+  font-weight: bold !important; }
+.acm-caseoverview-portlet .table th, .acm-caseoverview-portlet .table td {
+  line-height: 20px;
+  text-aling: left; }
+.acm-caseoverview-portlet .table td {
+  vertical-align: middle; }
+.acm-caseoverview-portlet .table-bordered {
+  border: 1px solid #ddd;
+  border-collapse: separate;
+  border-radius: 4px; }
+.acm-caseoverview-portlet .table-condensed th {
+  padding: 4px 5px; }
+

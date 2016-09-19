@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="de.iisys.liferay.portlet.camundaACM.caseOverview.service.CaseInstanceLocalService" class="de.iisys.liferay.portlet.camundaACM.caseOverview.service.impl.CaseInstanceLocalServiceImpl" />
+	<bean id="de.iisys.liferay.portlet.camundaACM.caseOverview.service.CaseInstanceService" class="de.iisys.liferay.portlet.camundaACM.caseOverview.service.impl.CaseInstanceServiceImpl" />
+	<bean id="de.iisys.liferay.portlet.camundaACM.caseOverview.service.persistence.CaseInstancePersistence" class="de.iisys.liferay.portlet.camundaACM.caseOverview.service.persistence.CaseInstancePersistenceImpl" parent="basePersistence" />
+</beans>

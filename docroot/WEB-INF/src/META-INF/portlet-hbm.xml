@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping default-lazy="false" auto-import="false">
+	<import class="de.iisys.liferay.portlet.camundaACM.caseOverview.model.CaseInstance" />
+	<class name="de.iisys.liferay.portlet.camundaACM.caseOverview.model.impl.CaseInstanceImpl" table="CamundaACM_CaseInstance">
+		<cache usage="read-write" />
+		<id name="liferayCaseInstanceId" type="long">
+			<generator class="assigned" />
+		</id>
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="userId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createDate" type="org.hibernate.type.TimestampType" />
+		<property name="modifiedDate" type="org.hibernate.type.TimestampType" />
+		<property name="caseInstanceId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="caseDefinitionKey" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

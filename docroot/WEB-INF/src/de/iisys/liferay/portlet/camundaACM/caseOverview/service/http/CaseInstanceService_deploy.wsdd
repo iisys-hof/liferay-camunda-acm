@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+	<service name="Plugin_CamundaACM_CaseInstanceService" provider="java:RPC" style="rpc" use="encoded">
+		<operation xmlns:operNS="urn:http.service.caseOverview.camundaACM.portlet.liferay.iisys.de" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="getWikiPage" qname="operNS:getWikiPage" returnQName="getWikiPageReturn" returnType="rtns:anyType" soapAction="">
+			<parameter xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="resourcePrimaryKey" type="tns:long"></parameter>
+		</operation>
+		<parameter name="allowedMethods" value="getWikiPage" />
+		<parameter name="className" value="de.iisys.liferay.portlet.camundaACM.caseOverview.service.http.CaseInstanceServiceSoap" />
+		<parameter name="typeMappingVersion" value="1.2" />
+		<parameter name="wsdlPortType" value="CaseInstanceServiceSoap" />
+		<parameter name="wsdlServiceElement" value="CaseInstanceServiceSoapService" />
+		<parameter name="wsdlServicePort" value="Plugin_CamundaACM_CaseInstanceService" />
+		<parameter name="wsdlTargetNamespace" value="urn:http.service.caseOverview.camundaACM.portlet.liferay.iisys.de" />
+	</service>
+</deployment>

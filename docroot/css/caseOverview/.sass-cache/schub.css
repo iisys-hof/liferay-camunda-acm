@@ -1,0 +1,22 @@
+.acm-caseoverview-portlet .table th {
+  font-weight: bold !important; }
+.acm-caseoverview-portlet .table th, .acm-caseoverview-portlet .table td {
+  line-height: 20px;
+  text-aling: left; }
+.acm-caseoverview-portlet .table td {
+  vertical-align: middle; }
+.acm-caseoverview-portlet .table tr.highlighted td {
+  background-color: #cef1fc; }
+.acm-caseoverview-portlet .table-bordered {
+  border: 1px solid #ddd;
+  border-collapse: separate;
+  border-radius: 4px; }
+.acm-caseoverview-portlet .table-condensed th {
+  padding: 4px 5px; }
+.acm-caseoverview-portlet .pagination {
+  margin: 0; }
+.acm-caseoverview-portlet .upper-button, .acm-caseoverview-portlet .upper-button-left {
+  margin-bottom: 10px; }
+.acm-caseoverview-portlet .upper-button-left {
+  margin-right: 10px; }
+

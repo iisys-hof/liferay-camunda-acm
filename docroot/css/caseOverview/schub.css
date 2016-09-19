@@ -1,0 +1,25 @@
+.acm-caseoverview-portlet {
+	
+	.table th { font-weight:bold !important; }
+	.table th, .table td { line-height:20px; text-aling:left; }
+	.table td { vertical-align:middle; }
+	
+	.table tr.highlighted td { background-color:#cef1fc; }
+	
+	.table-bordered {
+		border:1px solid #ddd;
+		border-collapse:separate;
+		border-radius:4px;
+	}
+	
+	.table-condensed th {
+		padding:4px 5px;
+	}
+	
+	.pagination { margin:0; }
+	
+	.upper-button, .upper-button-left {
+		margin-bottom:10px;
+	}
+	.upper-button-left { margin-right:10px; }
+}

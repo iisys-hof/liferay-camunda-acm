@@ -1,0 +1,74 @@
+.acm-stakeholders-portlet {
+  /* Table Row: */
+  /* autocomplete: */ }
+  .acm-stakeholders-portlet .button-holder {
+    margin-top: 0; }
+  .acm-stakeholders-portlet .button-holder .control-group, .acm-stakeholders-portlet .button-holder .control-group input {
+    margin: 0; }
+  .acm-stakeholders-portlet .button-holder .control-group {
+    width: 50%;
+    float: left; }
+  .acm-stakeholders-portlet .button-holder .control-group input {
+    width: 95%; }
+  .acm-stakeholders-portlet .table {
+    border-top-width: 0;
+    margin-bottom: 0; }
+    .acm-stakeholders-portlet .table thead {
+      display: none; }
+    .acm-stakeholders-portlet .table .first {
+      vertical-align: middle;
+      width: 12px; }
+  .acm-stakeholders-portlet .table-striped .table-data .first, .acm-stakeholders-portlet .table-striped .table-data .last {
+    background: none; }
+  .acm-stakeholders-portlet .body {
+    clear: right;
+    word-break: break-word; }
+  .acm-stakeholders-portlet .stakeholder-link {
+    display: block;
+    margin: -10px;
+    padding: 10px;
+    padding-left: 80px;
+    position: relative;
+    z-index: 1; }
+    .acm-stakeholders-portlet .stakeholder-link .body {
+      color: #666; }
+    .acm-stakeholders-portlet .stakeholder-link .subject {
+      clear: right;
+      color: #333;
+      word-break: break-word; }
+  .acm-stakeholders-portlet .taglib-user-display, .acm-stakeholders-portlet .thread .taglib-user-display {
+    float: left;
+    padding: 0; }
+  .acm-stakeholders-portlet .results-header, .acm-stakeholders-portlet .taglib-user-display.display-style-2 .user-details, .acm-stakeholders-portlet .taglib-user-display.display-style-2 .user-name {
+    display: none; }
+  .acm-stakeholders-portlet .author-sender, .acm-stakeholders-portlet .name {
+    float: left;
+    /* font-weight: bold; */
+    padding-right: 0.3em; }
+  .acm-stakeholders-portlet .user-profile-image {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 4px 0; }
+  .acm-stakeholders-portlet .user-profile-image img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: auto;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  .acm-stakeholders-portlet .date {
+    color: #777;
+    float: right;
+    font-size: 11px; }
+  .acm-stakeholders-portlet .yui3-aclist {
+    z-index: 10; }
+  .acm-stakeholders-portlet ul.yui3-aclist-list {
+    margin: 0;
+    padding: 0; }
+
